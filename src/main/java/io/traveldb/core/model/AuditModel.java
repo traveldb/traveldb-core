@@ -1,4 +1,4 @@
-package io.traveldb.countries.model;
+package io.traveldb.core.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.annotation.CreatedDate;

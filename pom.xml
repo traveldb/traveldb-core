@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.traveldb</groupId>
-	<artifactId>countries</artifactId>
+	<artifactId>traveldb-core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>countries</name>
+	<name>traveldb-core</name>
 	<description>Countries API | TravelDB</description>
 
 	<properties>

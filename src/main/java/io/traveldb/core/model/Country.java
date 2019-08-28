@@ -1,4 +1,4 @@
-package io.traveldb.countries.model;
+package io.traveldb.core.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;

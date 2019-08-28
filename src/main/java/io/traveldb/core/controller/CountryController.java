@@ -1,8 +1,8 @@
-package io.traveldb.countries.controller;
+package io.traveldb.core.controller;
 
-import io.traveldb.countries.exception.ResourceNotFoundException;
-import io.traveldb.countries.model.Country;
-import io.traveldb.countries.repository.CountryRepository;
+import io.traveldb.core.exception.ResourceNotFoundException;
+import io.traveldb.core.model.Country;
+import io.traveldb.core.repository.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -28,7 +28,6 @@ public class CountryController {
 
         return ResponseEntity.ok().body(country);
     }
-
 
     @PostMapping("/countries")
     public Country createCountry(@Valid @RequestBody Country Country) {

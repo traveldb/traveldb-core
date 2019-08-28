@@ -1,4 +1,4 @@
-package io.traveldb.countries.exception;
+package io.traveldb.core.exception;
 
 import java.util.Date;
 
